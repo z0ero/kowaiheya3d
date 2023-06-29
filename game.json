@@ -1,0 +1,171 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 60,
+  "main": "./script/aez_bundle_main.js",
+  "assets": {
+    "wasm": {
+      "type": "text",
+      "path": "files/41e708fdcac13d27fc9c.wasm",
+      "virtualPath": "script/wasm.wasm"
+    },
+    "floor": {
+      "type": "image",
+      "path": "files/6f2fe86fbf79e83fdee9.jpg",
+      "global": true,
+      "width": 128,
+      "height": 128,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/floor.jpg"
+    },
+    "ceil": {
+      "type": "image",
+      "path": "files/d83b264fcbe79aa4f327.jpg",
+      "global": true,
+      "width": 128,
+      "height": 128,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/ceil.jpg"
+    },
+    "wall": {
+      "type": "image",
+      "path": "files/bd75c35a505e6384fee5.jpg",
+      "global": true,
+      "width": 128,
+      "height": 128,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/wall.jpg"
+    },
+    "enemy": {
+      "type": "image",
+      "path": "files/42e7b3292ac3eba53c06.jpg",
+      "global": true,
+      "width": 128,
+      "height": 128,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/enemy.jpg"
+    },
+    "enemy_model": {
+      "type": "text",
+      "path": "files/4f192e2f52b93f2ea128.mesh",
+      "virtualPath": "model/low_enemy.mesh"
+    },
+    "manual": {
+      "type": "image",
+      "path": "files/60713ccc31fc5ecabfad.png",
+      "global": true,
+      "width": 1280,
+      "height": 720,
+      "hint": {
+        "untainted": true
+      },
+      "virtualPath": "image/manual.png"
+    },
+    "bird": {
+      "type": "audio",
+      "path": "files/f79215d3b43b2e0ee523",
+      "systemId": "sound",
+      "global": true,
+      "duration": 3000,
+      "virtualPath": "audio/bird"
+    },
+    "damage": {
+      "type": "audio",
+      "path": "files/7d6f9efc28e6863b5042",
+      "systemId": "sound",
+      "global": true,
+      "duration": 1500,
+      "virtualPath": "audio/damage"
+    },
+    "common": {
+      "type": "audio",
+      "path": "files/eed3699f4f0bf8685c70",
+      "systemId": "sound",
+      "global": true,
+      "duration": 10000,
+      "virtualPath": "audio/common"
+    },
+    "uncommon": {
+      "type": "audio",
+      "path": "files/77cad136d33d6e701638",
+      "systemId": "sound",
+      "global": true,
+      "duration": 10000,
+      "virtualPath": "audio/uncommon"
+    },
+    "rare": {
+      "type": "audio",
+      "path": "files/52ae93f099a350a88cdb",
+      "systemId": "sound",
+      "global": true,
+      "duration": 10000,
+      "virtualPath": "audio/rare"
+    },
+    "mythic": {
+      "type": "audio",
+      "path": "files/9026af70b2a1d1016267",
+      "systemId": "sound",
+      "global": true,
+      "duration": 20000,
+      "virtualPath": "audio/mythic"
+    },
+    "bgm": {
+      "type": "audio",
+      "path": "files/3a8e69138d41ed08187c",
+      "systemId": "music",
+      "global": true,
+      "duration": 55000,
+      "virtualPath": "audio/horror_zone1"
+    },
+    "aez_bundle_main": {
+      "type": "script",
+      "global": true,
+      "path": "files/f086925699839f7a9594.js",
+      "virtualPath": "script/aez_bundle_main.js"
+    }
+  },
+  "moduleMainScripts": {
+    "@akashic-extension/akashic-hover-plugin": "node_modules/@akashic-extension/akashic-hover-plugin/lib/index.js"
+  },
+  "environment": {
+    "sandbox-runtime": "3",
+    "niconico": {
+      "supportedModes": [
+        "ranking"
+      ],
+      "preferredSessionParameters": {
+        "totalTimeLimit": 120
+      }
+    },
+    "external": {
+      "send": "0"
+    },
+    "akashic-runtime": {
+      "version": "~3.6.0-0",
+      "flavor": "-canvas"
+    }
+  },
+  "globalScripts": [],
+  "exportZipInfo": {
+    "version": "1.8.7",
+    "option": {
+      "force": true,
+      "strip": true,
+      "minify": true,
+      "minifyJs": false,
+      "minifyJson": false,
+      "packImage": false,
+      "bundle": true,
+      "babel": true,
+      "targetService": "nicolive"
+    }
+  }
+}
